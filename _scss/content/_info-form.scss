@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    gap: 1em;
+    justify-content: center;
+  }
+
+  #form {
+    display: inline-block;
+    margin-left: 100px;
+  }
+  
+  #form-grid1 {
+    float: left;
+  }
+
+  #form-grid2 {
+    float: right;
+  }
+
+  form input {
+    border: none;
+    width: 800px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 7px;
+  }
+
+  #first-name #last-name {
+    width: 50%;
+  }
+
+  #message {
+    height: 100px;
+  }
