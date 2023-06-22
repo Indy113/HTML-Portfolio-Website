@@ -3,28 +3,41 @@ form {
     flex-wrap: wrap;
     flex: auto;
     gap: 1em;
-    justify-content: center;
   }
 
   #form {
-    display: inline-block;
-    margin-left: 100px;
-  }
-  
-  #form-grid1 {
-    float: left;
+    display: inline-flex;
+    margin-left: 170px;
+    margin-right: 10px;
   }
 
-  #form-grid2 {
-    float: right;
+  #form p {
+    justify-content: left;
+    margin-right: 20px;
+    height: 90px;
+    width: auto;
+
   }
 
   form input {
     border: none;
-    width: 800px;
+    width: 600px;
     height: 50px;
     background-color: lightgray;
     border-radius: 7px;
+  }
+
+  form textarea {
+    border: none;
+    width: 600px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 7px;
+  }
+
+  input, textarea {
+    font-family: Arial;
+    font-size: 1em;
   }
 
   #first-name #last-name {
@@ -33,4 +46,8 @@ form {
 
   #message {
     height: 100px;
+  }
+
+  #submit {
+    float: right;
   }

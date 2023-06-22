@@ -9,27 +9,27 @@
   }
   
   header {
-    background: #3a8278;
-    box-shadow: 0 .5em 1em skyblue;
+    margin-left: 77px;
     position: absolute;
-    top: 0;
+    top: 90%;
     left: 0;
     z-index: 900;
     width: 100%
   }
   
   header label {
-    color: white;
+    color: lightgray;
     cursor: pointer;
     display: inline-block;
-    line-height: 4.25em;
-    font-size: .667em;
+    line-height: 4px;
+    font-size: 2;
     font-weight: bold;
     padding: 0 1em;
   }
   
   header label:hover {
-    background: #306b63;
+    transform: scale(2);
+    color: white;
   }
   
   .slide {
@@ -48,11 +48,12 @@
   
   [id^="slide"]:checked + .slide {
     left: 0;
-    z-index: 100;
+    z-index: 0;
     transition: left .65s ease-out;
   }
   
   .slide h1 {
+    margin-left: 130px;
     opacity: 0;
     transform: translateY(100%);
     transition: transform .5s .5s, opacity .5s;
