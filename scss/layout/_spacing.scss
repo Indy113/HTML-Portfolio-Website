@@ -11,12 +11,13 @@ html, body {
     font-size: 8vw;
 }
 
-#mainContent p {
-    text-align: center;
-    margin-left: 180px !important;
-    border-top: solid 10px #3a8278;
-    border-radius: 20px;
-    font-size: 20px;
-    max-width: 70%;
+.mainContent {
+    margin-top: 20px;
+    border-top: #3a8278 solid 15px;
+    border-radius: 5%;
+    margin-left: 180px;
 }
 
+::-webkit-input-placeholder {
+    padding-left: 15px;
+}
