@@ -1,0 +1,52 @@
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+/* Style the navbar */
+  #mobile-menu {
+    margin-top: 0px;
+    position: sticky;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 130px;
+  }
+  
+  /* Navbar links */
+  #mobile-menu a {
+    color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+  #mobile-menu p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+  }
+
+  #mobile-menu p a {
+    padding: 20px;
+  }
+
+  #mobile-menu .social-icons {
+    text-align: center;
+  }
+
+  #mobile-menu p a:link {
+    color: black;
+  }
+  
+  #mobile-menu p a:hover {
+    color: #444;
+    box-sizing: border-box;
+    border: solid 2px #3a8278;
+  }
+
+  #mobile-menu-image {
+    width: 70px;
+    height: 70px;
+  }
