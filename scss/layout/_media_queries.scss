@@ -1,1 +1,18 @@
-// Refuses to work
+
+@media only screen and (max-width: 1320px) {
+    #form textarea {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        margin-left: 10px;
+        margin-right: 10px;
+        float: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
