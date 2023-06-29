@@ -1,13 +1,10 @@
-#mobile-menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
+
 
 /* Style the navbar */
   #mobile-menu {
     margin-top: 0px;
+    top: 0;
+    z-index: 1;
     position: sticky;
     background-color: whitesmoke;
     width: 100%;
