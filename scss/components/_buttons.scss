@@ -1,3 +1,4 @@
+// Social icon buttons 
 .social-icons {
     word-spacing: 10px;
     text-decoration: none;
@@ -5,10 +6,12 @@
     height: 5%;
   }
   
+  // Social icons grow upon hover
   .social-icons a:hover {
     transform: scale(1.5); 
   }
 
+  // All buttons basic styling for consistency
   button {
     all: unset;
     background-color: #3a8278;
@@ -23,6 +26,7 @@
     transition-duration: 0.3s;
   }
 
+  // All buttons darken upon hover
   button:hover {
     background-color: #47a094;
     border-color: #3a8278;

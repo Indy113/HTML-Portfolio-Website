@@ -1,15 +1,18 @@
+// Limits the size of the fullscreen slider
 html, body {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
+// Scales and positions the "coming soon" element on the coding-examples page
 .coming-soon {
     margin: 200px;
     text-align: center;
     font-size: 8vw;
 }
 
+// Aligns all main content across all pages
 .mainContent {
     margin-top: 20px;
     border-top: #3a8278 solid 15px;
