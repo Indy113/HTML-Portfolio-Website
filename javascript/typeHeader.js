@@ -10,4 +10,6 @@ function typeWriter() {
   }
 };
 
-typeWriter ();
+document.addEventListener("afterprint", () {
+  typeWriter ();
+});
