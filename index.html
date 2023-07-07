@@ -2,12 +2,13 @@
 <html>
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="typeHeader" href="javascript/typeHeader.js">
+    <script src="typeHeader.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>Andrew Smith Portfolio</title>
     </head>
-    <a id="top"></a>
+    <body onload="pleaseWork()">
+<a id="top"></a>
     <div id="mobile-menu">
       <p>
         <img src="images\profile image.png" alt="Profile Image" id="mobile-menu-image">
@@ -51,7 +52,7 @@
         <input id="slide-1-trigger" type="radio" name="slides" checked>
 
           <section class="slide slide-one">
-          <h1 id="typeEffect"></h1><br>
+          <h1 id="typeEffect" onload="typeWriter()"></h1><br>
         </section>
         <input id="slide-2-trigger" type="radio" name="slides">
 
@@ -70,8 +71,7 @@
         </section>
       </div>
       <div class="main">
-      <p class="scroll"><i class="arrow down"></i><br><strong>Scroll Down</strong></p>  
-    <body>
+      <p class="scroll"><i class="arrow down"></i><br><strong>Scroll Down</strong></p> 
         <ul id="project-nav">
             <li class="project-nav-boxes"><img src="images\placeholder.png" class="project-nav-img"><h2>Project One</h2><a href=""><h3>View Project <i class="arrow right"></i></h3></a></li>
             <li class="project-nav-boxes"><img src="images\placeholder.png" class="project-nav-img"><h2>Project Two</h2><a href=""><h3>View Project <i class="arrow right"></i></h3></a></li>

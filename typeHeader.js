@@ -10,6 +10,6 @@ function typeWriter() {
   }
 };
 
-document.addEventListener("onload", () => {
-  typeWriter ();
-});
+function pleaseWork() {
+    console.log("woo hoo");
+};
