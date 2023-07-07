@@ -14,7 +14,7 @@ function typeWriter() {
 };
 
 function typeWriter2() {
-  if (i < txt.length) {
+  if (i < txt2.length) {
     document.getElementById("typeEffect2").innerHTML += txt2.charAt(i);
     i++;
     setTimeout(typeWriter2, speed);
@@ -22,7 +22,7 @@ function typeWriter2() {
 };
 
 function typeWriter3() {
-  if (i < txt.length) {
+  if (i < txt3.length) {
     document.getElementById("typeEffect3").innerHTML += txt3.charAt(i);
     i++;
     setTimeout(typeWriter3, speed);
@@ -30,7 +30,7 @@ function typeWriter3() {
 };
 
 function typeWriter4() {
-  if (i < txt.length) {
+  if (i < txt4.length) {
     document.getElementById("typeEffect4").innerHTML += txt4.charAt(i);
     i++;
     setTimeout(typeWriter4, speed);
