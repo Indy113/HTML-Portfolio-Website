@@ -40,19 +40,3 @@ function typeWriter4() {
 function typeEffectOnLoad() {
     typeWriter();
 };
-
-if (document.getElementById("slide-1-trigger").checked) {
-  typeWriter();
-};
-
-if (document.getElementById("slide-2-trigger").checked) {
-  typeWriter2();
-};
-
-if (document.getElementById("slide-3-trigger").checked) {
-  typeWriter3();
-};
-
-if (document.getElementById("slide-4-trigger").checked) {
-  typeWriter4();
-};
