@@ -13,3 +13,5 @@ function typeWriter() {
 function typeEffectOnLoad() {
     typeWriter();
 };
+
+console.log("typeHeader.js has run");
