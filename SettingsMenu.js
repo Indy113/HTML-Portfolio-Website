@@ -7,4 +7,4 @@ hamMenu.addEventListener('click', () => {
     offScreenMenu.classList.toggle('active');
 });
 
-console.log('hamburgerMenu.js has run');
+console.log('SettingsMenu.js has run');
