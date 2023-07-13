@@ -50,15 +50,15 @@ nav {
 }
 
 .off-screen-menu {
-  position: fixed;
-  top: 0;
-  right: -75%;
-  background-color: #333;
-  height: 100vh;
-  width: 30%;
-  transition: right .5s;
-  z-index: 10;
-  display: none;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    background-color: #333;
+    height: 100vh;
+    width: 15%;
+    transition: right .5s;
+    z-index: 10;
+    display: none;
 }
 
 .off-screen-menu.active {
@@ -66,5 +66,15 @@ nav {
 }
 
 .off-screen-menu {
-  right: 0;
+    right: 0;
+}
+
+// Settings sliders
+
+.settingsLabel {
+    color: white;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
 }
