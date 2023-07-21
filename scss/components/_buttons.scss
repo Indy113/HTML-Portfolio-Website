@@ -11,8 +11,8 @@
     transform: scale(1.5); 
   }
 
-  // All buttons basic styling for consistency
-  button {
+  // Submit button basic styling for consistency
+  #submit {
     all: unset;
     background-color: #3a8278;
     color: white;
@@ -26,8 +26,8 @@
     transition-duration: 0.3s;
   }
 
-  // All buttons darken upon hover
-  button:hover {
+  // Submit button darken upon hover
+  #submit:hover {
     background-color: #47a094;
     border-color: #3a8278;
   }
