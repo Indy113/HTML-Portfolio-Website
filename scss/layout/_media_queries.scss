@@ -4,36 +4,16 @@
     .sidebar {
         display: none;
     }
+
+    .hamburger-menu-nav {
+        display: none;
+    }
 }
 
 // Hides the mobile menu and adds left margin to all elements (for the sidebar) when above 801px
 @media only screen and (min-width: 801px) {
     #mobile-menu {
         display: none;
-    }
-
-    #form {
-        margin-left: 170px
-    }
-
-    .mainContent {
-        margin-left: 180px;
-    }
-
-    .main {
-        margin-left: 160px;
-    }
-
-    .slide h1 {
-        margin-left: 130px;
-    }
-
-    header {
-        margin-left: 77px;
-    }
-
-    footer {
-        margin-left: 160px;
     }
 }
 
