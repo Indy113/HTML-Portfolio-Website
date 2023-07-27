@@ -1,5 +1,7 @@
   // Project navigation
   #project-nav {
+    align-items: center;
+    margin-right: 11%;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -13,8 +15,8 @@
 
   .project-nav-img {
     border-radius: 0.5em;
-    height: 300px;
-    width: 600px;
+    height: 80%;
+    width: 100%;
     object-fit: cover;
   }
 
