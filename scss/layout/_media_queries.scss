@@ -24,8 +24,8 @@
     }
 }
 
-@media only screen and (max-width: 1165px) {
+@media only screen and (max-width: 1147px) {
     form textarea {
-        flex-basis: 2;
+        max-width: 550px;
     }
 }
