@@ -18,12 +18,12 @@
       <div class="off-screen-menu">
         <div class="sidebar">
           <p>
-            <a href="index.html"><img src="images\profile image.png" alt="Profile Image" id="sidebar-image"></a><br>
-            <a href="index.html">Home</a><br>
-            <a href="about-me.html">About Me</a><br>
-            <a href="index.html#project-nav">My Portfolio</a><br>
-            <a href="coding-examples.html">Coding Examples</a><br>
-            <a href="scs-scheme.html">SCS Scheme</a><br>
+            <a href="index.php"><img src="images\profile image.png" alt="Profile Image" id="sidebar-image"></a><br>
+            <a href="index.php">Home</a><br>
+            <a href="about-me.php">About Me</a><br>
+            <a href="index.php#project-nav">My Portfolio</a><br>
+            <a href="coding-examples.php">Coding Examples</a><br>
+            <a href="scs-scheme.php">SCS Scheme</a><br>
           </p>
           <span class="social-icons">
             <a href="#" class="fa fa-facebook"></a>
@@ -40,17 +40,3 @@
       </div>
     </nav>
     <script src="SettingsMenu.js"></script>
-    <body>
-      <div class="mainContent">
-        <h2>About me</h2>
-      I am a web developer in training, interested in all things technology.
-      <br>
-      <h3>My Skills</h3>
-      <ul>
-        <li>Creative Thinking</li>
-        <li>Independent Learning</li>
-        <li>Teamwork</li>
-      </ul>
-      </div>
-  </body>
-</html>

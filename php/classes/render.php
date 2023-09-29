@@ -1,5 +1,7 @@
-<?php
+<html>
 
+
+<?php
 class Render
 {
     public static function displayEmployeeName($employee)
@@ -12,3 +14,6 @@ class Render
         return $output;
     }
 }
+?>
+
+</html>

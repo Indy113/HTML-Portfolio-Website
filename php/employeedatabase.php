@@ -7,5 +7,5 @@ $employee1->setFirstName = "Carl";
 $employee1->setLastName = "Sanders";
 $employee1->setEmail = "CarlSanders@gmail.com"
 
-echo Render::displayEmployeeName($employee1);
+//echo Render::displayEmployeeName($employee1);
 ?>

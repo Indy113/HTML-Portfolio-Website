@@ -1,46 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Andrew Smith Portfolio</title>
-        <link rel="stylesheet" href="css/application.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" sizes="120x120" href="images/favicon_package_v0.16/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package_v0.16/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package_v0.16/favicon-16x16.png">
-        <link rel="manifest" href="images/favicon_package_v0.16/site.webmanifest">
-        <link rel="mask-icon" href="images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <meta name="description" content="A collection of projects and information relating to Andrew Smith that comes together to form a portfolio.">
-    </head>
-    <body onload="typeEffectOnLoad()">
-<a id="top"></a>
-<nav class="hamburger-menu-nav">
-  <div class="off-screen-menu">
-    <div class="sidebar">
-      <p>
-        <a href="index.html"><img src="images\profileimage.png" alt="Profile Image" id="sidebar-image"></a><br>
-        <a href="index.html">Home</a><br>
-        <a href="about-me.html">About Me</a><br>
-        <a href="index.html#project-nav">My Portfolio</a><br>
-        <a href="coding-examples.html">Coding Examples</a><br>
-        <a href="scs-scheme.html">SCS Scheme</a><br>
-      </p>
-      <span class="social-icons">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-      </span>
-    </div>
-  </div>
-  <div class = "hamburger-menu">
-      <div class="ham-bar bar-top"></div>
-      <div class="ham-bar bar-mid"></div>
-      <div class="ham-bar bar-bottom"></div>
-  </div>
-</nav>
+    <?php 
+      include("inc\navigation.php");
+    ?>
     <div class="slider">
         <header>
           <label for="slide-1-trigger">&#x2022;</label>

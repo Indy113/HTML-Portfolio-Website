@@ -42,13 +42,13 @@ class Employee
     }
     //============================================
 
-    public function addCompany($cName, $cEmail = null, $cLogo = null)
-    {
-        $this company[] = array (
-            "Name" => $cName,
-            "Email" => $cEmail,
-            "Logo" => $cLogo
-        );
-    }
+    // public function addCompany($cName, $cEmail = null, $cLogo = null)
+    // {
+    //     $this company[] = array (
+    //         "Name" => $cName,
+    //         "Email" => $cEmail,
+    //         "Logo" => $cLogo
+    //     );
+    // }
 }
 ?>

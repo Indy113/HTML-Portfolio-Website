@@ -16,16 +16,16 @@
     </head>
 <body>
     <?php
-        if (isset($_GET['first_name'], $_GET['last_name'], $_GET['email'], $_GET['phone_number']))
+        if (isset($_GET['first_name'], $_GET['last_name'], $_GET['email'], $_GET['phoneNumber']))
             {
             $first_name = $_GET['first_name'];
             $last_name = $_GET['last_name'];
-            $email = $_GET['email']
-            $phone_number = $_GET['phone_number']
+            $email = $_GET['email'];
+            $phoneNumber = $_GET['phone_number'];
             echo $first_name . '<br>'; 
             echo $last_name;
-            echo $email
-            echo $phone_number
+            echo $email;
+            echo $phoneNumber;
             }
     ?>
     <form method="get" action="Project1.php">
