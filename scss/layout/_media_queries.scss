@@ -1,3 +1,28 @@
+// Hides the sidebar when the screen narrows below 800px
+@media only screen and (max-width: 800px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .hamburger-menu-nav {
+        display: none;
+    }
+}
+
+// Hides the mobile menu and adds left margin to all elements (for the sidebar) when above 801px
+@media only screen and (min-width: 801px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+// Shrinks the mobile menu's font size when below 587px
+@media only screen and (max-width: 587px) {
+    #mobile-menu p {
+        font-size: 10px;
+    }
+}
 
 @media only screen and (max-width: 1147px) {
     form textarea {
